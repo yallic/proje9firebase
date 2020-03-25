@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "293362383597",
+    "firebase_url": "https://proje9firebase.firebaseio.com",
+    "project_id": "proje9firebase",
+    "storage_bucket": "proje9firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293362383597:android:7d3cf8be3597b9a8c9aae4",
+        "android_client_info": {
+          "package_name": "com.yallic.proje9firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293362383597-e1vsbgf6cgj4h3ci19cttuabam1mp7gb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwF34TW0Rw2de_i6XfFAwqG3hCPBKeulI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293362383597-e1vsbgf6cgj4h3ci19cttuabam1mp7gb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
