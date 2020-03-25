@@ -34,6 +34,7 @@ public class SignInActivity extends AppCompatActivity {
         if (firebaseUser != null){
             Intent intent = new Intent(SignInActivity.this,FeedActivity.class);
             startActivity(intent);
+            finish();
         }
     }
 
@@ -47,6 +48,7 @@ public class SignInActivity extends AppCompatActivity {
 
                 Intent intent = new Intent(SignInActivity.this,FeedActivity.class);
                 startActivity(intent);
+                finish();
             }
         }).addOnFailureListener(new OnFailureListener() {
             @Override
@@ -69,6 +71,7 @@ public class SignInActivity extends AppCompatActivity {
 
                 Intent intent = new Intent(SignInActivity.this,FeedActivity.class);
                 startActivity(intent);
+                finish();
             }
         }).addOnFailureListener(new OnFailureListener() {
             @Override
